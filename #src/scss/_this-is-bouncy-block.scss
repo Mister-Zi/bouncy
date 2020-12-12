@@ -1,0 +1,141 @@
+.this_is_bouncy-block__inner{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.this_is_bouncy-block__text {
+  max-width: 470px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+
+}
+.this_is_bouncy-block__title {
+  font-size: 20px;
+  text-align: left;
+
+}
+
+
+.this_is_bouncy-block__content {
+  margin-bottom: 40px;
+  font-size: 14px;
+  font-family: OpenSans, serif;
+  color: #81868e;
+}
+.this_is_bouncy-block__button {
+  align-self: flex-start;
+  font-family: OpenSans, serif;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 50px;
+  border:1px solid black;
+  padding: 6px 30px;
+  background: #ffffff;
+}
+
+.this_is_bouncy-block__button:hover {
+  border:1px solid #19bd9a;
+  color: #ffffff;
+  background: #19bd9a;
+  transition: all 0.5s ease-out;
+
+}
+.this_is_bouncy-block__button:focus{
+  border:1px solid #000000;
+  color: #ffffff;
+  background: #000000;
+  transition: all 0.5s ease-out;
+
+}
+.this_is_bouncy-block__picture {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.image {
+  max-width: 210px;
+  margin: auto;
+}
+
+@media only screen and (min-width: 1024px) {
+  .this_is_bouncy-block__inner{
+    flex-direction: row;
+  }
+  .this_is_bouncy-block__inner {
+
+  }
+}
+/*  Tablets in portrait mode, large display smartphones landscape mode */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+  .this_is_bouncy-block__inner{
+    flex-direction: row;
+  }
+}
+@media only screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1023px)   {
+  .this_is_bouncy-block__inner{
+    flex-direction: row;
+  }
+  .this_is_bouncy-block__title {
+    text-transform: uppercase;
+    font-family: SourceSansPro, serif;
+    font-size: 20px;
+
+    padding-bottom: 10px;
+  }
+  .this_is_bouncy-block__content {
+    padding-bottom: 20px;
+  }
+}
+/*  Smartphones in landscape mode */
+@media only screen and (min-width: 768px) and (max-width: 1023px)   {
+  .this_is_bouncy-block__inner{
+    flex-direction: row;
+  }
+  .this_is_bouncy-block__title {
+    text-transform: uppercase;
+    font-family: SourceSansPro, serif;
+    font-size: 20px;
+
+    padding-bottom: 10px;
+  }
+  .this_is_bouncy-block__content {
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (orientation: landscape) and (min-width: 421px) and (max-width: 767px) {
+  .this_is_bouncy-block__inner{
+    flex-direction: row;
+  }
+  .this_is_bouncy-block__content {
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+  .this_is_bouncy-block__title {
+    text-transform: uppercase;
+    font-family: SourceSansPro, serif;
+    font-size: 20px;
+
+    padding-bottom: 10px;
+  }
+  .this_is_bouncy-block__content {
+    padding-bottom: 20px;
+  }
+}
+  /*  Smartphones in portrait mode  */
+
+@media only screen and (max-width: 420px) {
+  .this_is_bouncy-block__title {
+    text-transform: uppercase;
+    font-family: SourceSansPro, serif;
+    font-size: 20px;
+
+    padding-bottom: 10px;
+  }
+  .this_is_bouncy-block__content {
+    padding-bottom: 20px;
+  }
+}

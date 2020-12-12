@@ -1,0 +1,8 @@
+@@include('_header.js')
+@@include('_main-block.js')
+@@include('_this-is-bouncy-block.js')
+@@include('_our-service.js')
+@@include('_portfolio.js')
+@@include('_team.js')
+@@include('_price.js')
+@@include('_about-bouncy.js')

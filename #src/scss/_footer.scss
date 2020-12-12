@@ -1,0 +1,75 @@
+footer {
+  text-align: center;
+  background: #f3f3f3;
+}
+.footer__logo h2{
+  font-family: BigJohn,serif;
+  font-size: 30px;
+  margin-bottom: 22px;
+
+}
+.footer__copyright{
+  font-family: OpenSans, serif;
+  color: #81868e;
+  margin-bottom: 45px;
+}
+
+.footer__icons-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  margin: auto;
+  justify-content: center;
+}
+.footer__icon a{
+  cursor: pointer;
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 50%;
+  background: #19bd9a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+
+}
+.footer__icon:hover a {
+  background: #047378;
+}
+.footer__icon:last-of-type a{
+  margin-right: 0;
+}
+.footer__icon img{
+  width: 20px;
+  height: 20px;
+
+}
+
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and(orientation: landscape) and (min-width: 1024px) {
+
+}
+/*  Tablets in portrait mode, large display smartphones landscape mode */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+}
+@media only screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1023px)   {
+
+}
+/*  Smartphones in landscape mode */
+@media only screen and (min-width: 768px) and (max-width: 1023px)   {
+
+}
+@media only screen and (orientation: landscape) and (min-width: 421px) and (max-width: 767px) {
+
+}
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+
+}
+/*  Smartphones in portrait mode  */
+
+@media only screen and (max-width: 420px) {
+
+}

@@ -1,0 +1,111 @@
+
+.projects__content {
+  display: flex;
+  flex-direction: row;
+
+}
+.projects__wrapper {
+  min-width: 50%;
+}
+.projects__wrapper:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+
+}
+.projects__item {
+  position: relative;
+  min-height: 320px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+}
+.projects__item-title {
+  text-transform: uppercase;
+  font-family: SourceSansPro, serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  left: 50%;
+  right: 50%;
+  margin-bottom: 0;
+  transition: all 0.3s ease-out;
+  z-index: 2;
+  position: absolute;
+
+}
+
+
+.projects__wrapper:nth-child(1) .projects__item{
+  background: url("../img/projects_02.jpg") no-repeat center;
+  background-size:  cover;
+}
+.projects__wrapper:nth-child(2) .projects__item{
+  background: url("../img/projects_03.jpg") no-repeat center;
+  background-size:  cover;
+}
+.projects__wrapper:nth-child(2) .projects__item:nth-child(2){
+  background: url("../img/projects_04.jpg") no-repeat center;
+  background-size:  cover;
+}
+
+.projects__bg-dark {
+  position: absolute;
+  top:0;
+  left: 0;
+  background: rgba(0,0,0,0.7);
+  height: 100%;
+  width: 100%;
+  transition: all .5s ease-out;
+}
+
+.projects__item:hover .projects__bg-dark{
+  top:100%;
+  transition: all .5s ease-out;
+}
+.projects__item:hover .projects__item-title.title {
+
+  left: 0;
+  transition: all .3s ease-out;
+}
+
+.projects__item-title {
+  color: #ffffff;
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+
+}
+/*  Tablets in portrait mode, large display smartphones landscape mode */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+}
+
+/*  Smartphones in landscape mode */
+@media only screen and (min-width: 768px) and (max-width: 1023px)   {
+  .projects__content {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+  .projects__content {
+    flex-direction: column;
+  }
+}
+/*  Smartphones in portrait mode  */
+
+@media only screen and (max-width: 420px) {
+  .projects__content {
+    flex-direction: column;
+  }
+  .projects__wrapper:nth-child(2) {
+    flex-direction: column;
+
+  }
+}

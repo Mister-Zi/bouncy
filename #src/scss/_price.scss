@@ -1,0 +1,121 @@
+.price {
+  background: #f3f3f3;
+}
+.price__item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+.price__item{
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 15px auto;
+
+  height: 302px;
+  width: 233px;
+}
+.price__item-hover {
+  flex-direction: column-reverse;
+}
+
+.item__title {
+  height: 67px;
+  width: 233px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-family: OpenSans, serif;
+  font-weight: bold;
+  background: #19bd9a;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 2.8;
+}
+.item__price{
+  height: 235px;
+  width: 233px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ffffff;
+
+}
+.item__price ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: auto;
+
+
+}
+.item__price ul li{
+  font-family: OpenSans, serif;
+  color: #81868e;
+}
+.item__link{
+  text-decoration: none;
+  color: #ffffff;
+
+}
+.money {
+  font-family: BigJohn, serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: #19bd9a;
+}
+.period {
+  font-family: OpenSans, serif;
+  font-size: 20px;
+  color: #81868e;
+}
+
+@media only screen and (min-width: 1024px) {
+  .price__item-wrapper {
+    flex-direction: row;
+
+  }
+
+}
+@media only screen and(orientation: landscape) and (min-width: 1024px) {
+  .price__item-wrapper {
+    flex-direction: row;
+
+  }
+
+}
+/*  Tablets in portrait mode, large display smartphones landscape mode */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+  .price__item-wrapper {
+    flex-direction: row;
+
+  }
+}
+@media only screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1023px)   {
+  .price__item-wrapper {
+    flex-direction: row;
+
+  }
+}
+/*  Smartphones in landscape mode */
+@media only screen and (min-width: 768px) and (max-width: 1023px)   {
+  .price__item-wrapper {
+    flex-direction: row;
+
+  }
+}
+@media only screen and (orientation: landscape) and (min-width: 421px) and (max-width: 767px) {
+
+}
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+
+}
+/*  Smartphones in portrait mode  */
+
+@media only screen and (max-width: 420px) {
+
+}

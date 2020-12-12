@@ -1,0 +1,97 @@
+.cta {
+  position: relative;
+  background: rgba(25, 189, 154, 0.9) ;
+  color: #ffffff;
+
+}
+
+.cta__inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+.cta__text {
+  font-size: 20px;
+  font-family: OpenSans, serif;
+  margin: auto 0;
+  z-index: 5;
+
+
+
+}
+.cta__text.p{
+  line-height: 1;
+  margin: 40px 0;
+}
+
+
+.cta__button{
+  outline: none;
+  cursor: pointer;
+  font-family: OpenSans, serif;
+  font-size: 20px;
+  padding: 6px 30px;
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+  max-height: 46px;
+  font-weight: 300;
+  margin: 25px 0;
+  z-index: 5;
+  transition: all 0.5s ease-out;
+  color: #ffffff;
+  background: transparent;
+}
+.cta__button:hover {
+  color: #19bd9a;
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  transition: all 0.5s ease-out;
+
+}
+
+.cta_second-bg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: url("../img/convers_02.jpg") center 0 no-repeat;
+  position: absolute;
+  background-size: cover;
+  opacity: 0.3;
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+
+}
+@media only screen and(orientation: landscape) and (min-width: 1024px) {
+
+
+}
+/*  Tablets in portrait mode, large display smartphones landscape mode */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+}
+@media only screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1023px)   {
+
+}
+/*  Smartphones in landscape mode */
+@media only screen and (min-width: 768px) and (max-width: 1023px)   {
+
+}
+@media only screen and (orientation: landscape) and (min-width: 421px) and (max-width: 767px) {
+
+}
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+
+}
+/*  Smartphones in portrait mode  */
+
+@media only screen and (max-width: 420px) {
+
+}

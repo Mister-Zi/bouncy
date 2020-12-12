@@ -1,0 +1,115 @@
+.contacts {
+  background: #f3f3f3;
+}
+.contacts__item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+.contacts__item{
+
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 15px auto;
+
+
+}
+
+.contacts__image img {
+
+}
+.contact__text{
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+.contacts__title {
+  text-transform: uppercase;
+  font-family: OpenSans, serif;
+  font-weight: 600;
+  color: #464646;
+  max-width: 287px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.contacts__title-margin{
+  background: #ffffff;
+  margin: 15px;
+
+
+}
+.contacts__desc{
+  white-space: nowrap;
+  height: 127px;
+  max-width: 287px;
+  text-transform: uppercase;
+  font-family: OpenSans, serif;
+  display: flex;
+  color: #81868e;
+  flex-direction: column;
+  justify-content: center;
+
+
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .contacts__item-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .contacts__item{
+    margin: 15px;
+  }
+}
+@media only screen and(orientation: landscape) and (min-width: 1024px) {
+  .contacts__item-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .contacts__item{
+    margin: 15px;
+  }
+
+}
+/*  Tablets in portrait mode, large display smartphones landscape mode */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+  .contacts__item-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .contacts__item{
+    margin: 15px;
+  }
+}
+@media only screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1023px)   {
+  .contacts__item-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .contacts__item{
+    margin: 15px;
+  }
+}
+/*  Smartphones in landscape mode */
+@media only screen and (min-width: 768px) and (max-width: 1023px)   {
+
+}
+@media only screen and (orientation: landscape) and (min-width: 421px) and (max-width: 767px) {
+
+}
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+
+}
+/*  Smartphones in portrait mode  */
+
+@media only screen and (max-width: 420px) {
+
+}
